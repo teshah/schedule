@@ -19,8 +19,11 @@ GPS
 
     * Monroe Tournament Registration Link https://events.gotsport.com/forms/app/Default.aspx?eventid=58345
 
+ * [Manalapan Memorial Day Tourn - May 26-28, 2017](http://www.manalapansoccerclub.com/Default.aspx?tabid=554003)
+   * [Manalapan Fields](http://www.manalapansoccerclub.com/Default.aspx?tabid=865289)
+   
 [Basketball](https://profile.leaguetoolbox.com/site/ClientProfile/section/schedule)
 
-[Baseball](http://www.leaguelineup.com/schedules.asp?url=obll&sid=222711721&divisionid=594495 "Baseball Schedule" target="_blank")
+[Baseball](http://www.leaguelineup.com/schedules.asp?url=obll&sid=222711721&divisionid=594495)
 
 
