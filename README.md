@@ -1,8 +1,8 @@
 ## Fun
 
-[Soccer Team Schedule](https://go.teamsnap.com/2049296/schedule?mode=calendar)
+* [Soccer TeamSnap Schedule](https://go.teamsnap.com/2049296/schedule?mode=calendar)
 
-[MOSA Sunday Game Schedule](https://events.gotsport.com/events/schedule.aspx?eventid=57830&FieldID=0&applicationID=3875480&action=Go)
+* [MOSA Sunday Schedule](https://events.gotsport.com/events/schedule.aspx?eventid=57830&FieldID=0&applicationID=3875480&action=Go)
 
 * [TabRamos Schedule](http://www.tabramossportscenter.com/schedules-standings/)
 * Monroe Tournament
@@ -17,7 +17,7 @@ GPS
 
     * [Monroe Tournament Schedule](http://www.monroesoccer.com/spring-tournament/schedule-of-tournament-games)
 
-    * Monroe Tournament Registration Link https://events.gotsport.com/forms/app/Default.aspx?eventid=58345
+    * [Monroe Tournament Registration Link](https://events.gotsport.com/forms/app/Default.aspx?eventid=58345)
 
  * [Manalapan Memorial Day Tourn - May 26-28, 2017](http://www.manalapansoccerclub.com/Default.aspx?tabid=554003)
    * [Manalapan Fields](http://www.manalapansoccerclub.com/Default.aspx?tabid=865289)
