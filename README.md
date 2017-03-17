@@ -21,6 +21,7 @@ GPS
 
  * [Manalapan Memorial Day Tourn - May 26-28, 2017](http://www.manalapansoccerclub.com/Default.aspx?tabid=554003)
    * [Manalapan Fields](http://www.manalapansoccerclub.com/Default.aspx?tabid=865289)
+   * [Register](https://www.gotsport.com/forms/app/?eventid=57981)
    
 [Basketball](https://profile.leaguetoolbox.com/site/ClientProfile/section/schedule)
 
