@@ -3,6 +3,7 @@
 * [Soccer TeamSnap Schedule](https://go.teamsnap.com/2049296/schedule?mode=calendar)
 
 * [MOSA Sunday Schedule](https://events.gotsport.com/events/schedule.aspx?eventid=57830&FieldID=0&applicationID=3875480&action=Go)
+* [RedBulls U8 Schedule](http://www.obsl.com/teams/87115209/87469407-87115278/TEAM.html)
 
 * [TabRamos Schedule](http://www.tabramossportscenter.com/schedules-standings/)
 * Monroe Tournament
