@@ -22,6 +22,9 @@ GPS
 [Manalapan Memorial Day ⚽ Tourn - May 26-28, 2017](http://www.manalapansoccerclub.com/Default.aspx?tabid=554003) | [Manalapan Fields](http://www.manalapansoccerclub.com/Default.aspx?tabid=865289) | [Register](https://www.gotsport.com/forms/app/?eventid=57981)
    
 
+Other Links
+ * [Middle School](http://csmsathletics.org) ... [Calendar](http://csmsathletics.org/main/calendar)
+ * [Parent Portal](https://www.fridayparentportal.com/oldbridge)
 
 
 Old Links
