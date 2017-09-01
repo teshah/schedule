@@ -3,6 +3,7 @@
 [Cosmos Team Snap](https://go.teamsnap.com/1147266/schedule?mode=calendar)<br>
 [Cosmos Mosa](http://events.gotsport.com/events/schedule.aspx?eventid=61350&FieldID=0&applicationID=4205574&action=Go)<br>
 [Bulldogs Schedule - Boys U9 2009 Boys National 4 - 9](http://events.gotsport.com/events/schedule.aspx?eventid=61350&FieldID=0&applicationID=4200039&action=Go)<br>
+<img src="dideriksenpark.jpg" />
 
 Links
  * [Middle School](http://csmsathletics.org) ... [Calendar](http://csmsathletics.org/main/calendar)
