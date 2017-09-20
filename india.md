@@ -25,3 +25,14 @@ Breakfast at hotel. Day leisure for your trip. Dinner at Hotel. Overnight stay a
  
 Day 06: Departure
 After breakfast, Check out from Hotel & drive to Airport.
+
+Date    :           26-Nov		
+Flight   :           Go Air		
+Sector  :           AMD 0930       DEL 1110		
+Rate     :           Rs. 3550/- per person		
+		
+		
+Date    :           1-Dec		
+Flight   :           Spice Jet		
+Sector  :           JAI 1305           AMD 1415		
+Rate     :           Rs 2650/- per person		
