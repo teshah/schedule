@@ -17,6 +17,7 @@
 | 3rd | nasa      |    |
 | 3rd | mavis beacon      |    |
 | 3rd | [wikipedia](https://www.safesearchkids.com/wikipedia-for-kids/)      |    |
+| all | [kids sites](https://www.kidzsearch.com/sites.html?aff=1409465098) | |
 
 
 [For Full Invitational Meet Results:](http://nj.milesplit.com/calendar )
