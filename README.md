@@ -1,6 +1,7 @@
 ## Fun
 
-[usopen](https://www.roadto45tennis.com/wp-content/uploads/2019/06/US-Open-Grounds-Map-2019-1024x758.png)
+[usopen map](https://www.roadto45tennis.com/wp-content/uploads/2019/06/US-Open-Grounds-Map-2019-1024x758.png)
+[usopen schedule](https://www.usopen.org/en_US/scores/schedule/index.html?promo=subnav)
 
 
 [video](https://photos.app.goo.gl/BKAuYaVFrVwMNqa26)
