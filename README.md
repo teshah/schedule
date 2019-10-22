@@ -3,6 +3,7 @@
 [Magnet](https://drive.google.com/file/d/1fLQ8mpH-MRNgYoPvo86bvrdRxlndfvL0/view)
 [Diwali](https://flic.kr/p/2htH5PG)
 [World Pop](https://www.worldometers.info/world-population/)
+[BallotNov2019](https://drive.google.com/file/d/1hA-8h9sGRcSxoJs4Yxw7kbioCeQmcbBd/view?usp=sharing)
 
 
 [usopen map](https://www.roadto45tennis.com/wp-content/uploads/2019/06/US-Open-Grounds-Map-2019-1024x758.png)
