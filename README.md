@@ -1,14 +1,15 @@
 ## Fun
 [Parade](https://www.macys.com/social/parade/where-to-watch/?cm_sp=imp-_-parade-_-hamnav_wheretowatch&lid=where_to_watch-hamnav)
-[Basketball Videos](https://www.sikana.tv/en/sport/learn-to-play-basketball)
-[Magnet](https://drive.google.com/file/d/1fLQ8mpH-MRNgYoPvo86bvrdRxlndfvL0/view)
-[Diwali](https://flic.kr/p/2htH5PG)
-[World Pop](https://www.worldometers.info/world-population/)
-[BallotNov2019](https://drive.google.com/file/d/1hA-8h9sGRcSxoJs4Yxw7kbioCeQmcbBd/view?usp=sharing)
-[Dir1](https://bit.ly/2W1Iv58)
+[Basketball Videos](https://www.sikana.tv/en/sport/learn-to-play-basketball)  
+[Magnet](https://drive.google.com/file/d/1fLQ8mpH-MRNgYoPvo86bvrdRxlndfvL0/view)  
+[Diwali](https://flic.kr/p/2htH5PG)  
+[World Pop](https://www.worldometers.info/world-population/)  
+[BallotNov2019](https://drive.google.com/file/d/1hA-8h9sGRcSxoJs4Yxw7kbioCeQmcbBd/view?usp=sharing)  
+[Dir1](https://bit.ly/2W1Iv58)  
+[Camel](https://www.skicamelback.com/galleries/ski-resort-in-poconos/)  
 
 
-[usopen map](https://www.roadto45tennis.com/wp-content/uploads/2019/06/US-Open-Grounds-Map-2019-1024x758.png)
+[usopen map](https://www.roadto45tennis.com/wp-content/uploads/2019/06/US-Open-Grounds-Map-2019-1024x758.png)  
 [usopen schedule](https://www.usopen.org/en_US/scores/schedule/index.html?promo=subnav)
 
 
