@@ -1,4 +1,5 @@
 ## Fun
+[Iberostar 1](https://www.travelocity.com/Puerto-Plata-Hotels-Iberostar-Costa-Dorada-All-Inclusive.h559709.Hotel-Information) [Iberostar 2](https://www.iberostar.com/en/hotels/puerto-plata/iberostar-costa-dorada/?utm_source=google&utm_medium=organic&utm_campaign=NA_IBSVOLAME_MYBUSINESS_ORGANIC_ORG_WW_EN_NA&utm_term=DOR)  
 [Boost](https://youtu.be/Rhdd37pVVl4)  
 [2020 Cal](2020.png)  
 [Parade](https://www.macys.com/social/parade/where-to-watch/?cm_sp=imp-_-parade-_-hamnav_wheretowatch&lid=where_to_watch-hamnav)
