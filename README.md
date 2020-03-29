@@ -1,4 +1,38 @@
-## Fun
+# Live Zoo Webcams
+- [San Diego Zoo Live Cams](https://zoo.sandiegozoo.org/cams/penguin-cam)
+- [San Diego Zoo has a website just for kids with amazing videos, activities, and games. Enjoy the tour!](https://kids.sandiegozoo.org/)
+- [Live Cameras at Monterey Bay Aquarium](https://www.montereybayaquarium.org/animals/live-cams)
+- [Astro STEM](http://www.astrostem.org/)
+- [Museum of the World](https://britishmuseum.withgoogle.com/)
+
+# Virtual Tours
+- [Access Mars](https://accessmars.withgoogle.com/#)
+- [National Geographic Kids - Geography and animals](https://kids.nationalgeographic.com/)	
+- [Explore Countries](https://kids.nationalgeographic.com/explore/countries/) 
+- [Best Virtual Tours](https://www.goodhousekeeping.com/life/travel/a31784720/best-virtual-tours/)
+- [Louvre](https://www.louvre.fr/en/visites-en-ligne)
+- [Great Wall of China](https://www.thechinaguide.com/destination/great-wall-of-china)
+- [More best virtual tours](https://www.weareteachers.com/best-virtual-field-trips/)
+- [More best ... article](https://www.insider.com/museums-theme-parks-offer-virtual-tours-ideal-for-social-distancing-2020-3#monterey-bay-aquarium-in-california-is-livestreaming-penguins-sea-otters-jellyfish-and-other-creatures-8)
+- [Science Simplified](https://www.backpacksciences.com/science-simplified)
+- [National Parks](https://artsandculture.withgoogle.com/en-us/national-parks-service)
+- [bunk history](https://www.bunkhistory.org/)
+- [big history project](https://school.bighistoryproject.com/bhplive)
+- [Guggenheim Street View](https://artsandculture.google.com/streetview/solomon-r-guggenheim-museum-interior-streetview/jAHfbv3JGM2KaQ?hl=en&sv_lng=-73.95902634325634&sv_lat=40.78285751667664&sv_h=10.75703204567916&sv_p=0.06928383072430222&sv_pid=MfnUmHRyOSzMtY3vtYU05g&sv_z=0.964574301525916)
+- [National Gallery of Art Washington](https://artsandculture.google.com/partner/national-gallery-of-art-washington-dc?hl=en)
+- [Van Gogh Museum](https://artsandculture.google.com/partner/van-gogh-museum?hl=en)
+- [Many other museums - article](https://www.travelandleisure.com/attractions/museums-galleries/museums-with-virtual-tours)
+
+
+# Games
+- [WebVR Games](https://experiments.withgoogle.com/collection/webvr)
+- [Finish This Comic](https://jarrettlerner.com/activities/?fbclid=IwAR1y1hzApI-T1VhEhz6VWU38aOb3Oq3KukkG-skKfJAl1pKUIu5XYbKcrO8)
+- [Mo William Doodle](https://www.kennedy-center.org/education/mo-willems/)
+- [Music](https://musiclab.chromeexperiments.com/Experiments)
+- [Storytime from space](https://storytimefromspace.com/library/)
+
+
+# Fun
 [Iberostar 1](https://www.travelocity.com/Puerto-Plata-Hotels-Iberostar-Costa-Dorada-All-Inclusive.h559709.Hotel-Information) [Iberostar 2](https://www.iberostar.com/en/hotels/puerto-plata/iberostar-costa-dorada/?utm_source=google&utm_medium=organic&utm_campaign=NA_IBSVOLAME_MYBUSINESS_ORGANIC_ORG_WW_EN_NA&utm_term=DOR)  
 [Boost](https://youtu.be/Rhdd37pVVl4)  
 [2020 Cal](2020.png)  
