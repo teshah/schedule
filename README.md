@@ -23,6 +23,8 @@
 - [Van Gogh Museum](https://artsandculture.google.com/partner/van-gogh-museum?hl=en)
 - [Many other museums - article](https://www.travelandleisure.com/attractions/museums-galleries/museums-with-virtual-tours)
 
+# COVID
+- [Kids Covid Video](https://vimeo.com/397899155)
 
 # Games
 - [WebVR Games](https://experiments.withgoogle.com/collection/webvr)
