@@ -25,7 +25,7 @@
 
 # COVID
 - [Kids Covid Video](https://vimeo.com/397899155)
-- [Housewrk](https://docs.google.com/spreadsheets/d/1apIQQDz4Ppw3y9mrjlThaB7fm9GmyGARoJ_m1Q2BhEc/edit#gid=0&range=A1)
+- [Housewrk](https://docs.google.com/spreadsheets/d/1wx--R0coEgwpUftpXPUX4zmK6H_ZR2II_TB3Uy9tyyQ/edit?usp=sharing)
 
 # Games
 - [WebVR Games](https://experiments.withgoogle.com/collection/webvr)
