@@ -1,103 +1,264 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Random Name Picker</title>
-    <style>
-        body {
-            font-family: sans-serif;
-        }
+<title>Spinning Wheel Name Picker</title>
+<style>
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    flex-direction: column; /* Stack elements vertically */
+}
 
-        .container {
-            width: 80%;
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
+.container {
+    width: 80%;
+    max-width: 600px; /* Limit width on larger screens */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center; /* Center-align text within the container */
+    margin-bottom: 20px; /* Space between input and wheel */
+}
 
-        label {
-            display: block;
-            margin-bottom: 5px;
-        }
+label {
+    display: block;
+    margin-bottom: 5px;
+}
 
-        textarea {
-            width: 100%;
-            height: 100px;
-            padding: 8px;
-            box-sizing: border-box;
-            /* Include padding in width */
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            resize: vertical;
-            /* Allow vertical resizing */
-        }
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
 
-        button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
-        }
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
 
-        button:hover {
-            background-color: #45a049;
-        }
+button:hover {
+    background-color: #45a049;
+}
 
-        #result {
-            margin-top: 20px;
-            font-size: 18px;
-            font-weight: bold;
-        }
+#wheel-container {
+    position: relative; /* For positioning the result text */
+    width: 300px; /* Fixed width for the wheel */
+    height: 300px; /* Fixed height for the wheel */
+    margin: 20px auto; /* Center the wheel */
+}
 
-        .error-message {
-            color: red;
-            margin-top: 5px;
-            font-size: 14px;
-        }
-    </style>
+#wheel {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; /* Make it a circle */
+    border: 5px solid #333;
+    transition: transform 3s ease-out; /* Smooth rotation */
+    background-color: white; /* fallback color */
+    /*background-image is set dynamically */
+
+}
+
+#spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+
+#pointer {
+    position: absolute;
+    top: 0; /* Align with the top of the wheel */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for the pointer's width */
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid red; /* Style the pointer */
+    z-index: 3; /* Above the wheel */
+}
+
+
+
+#result {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: black; /* Visible during spin */
+    z-index: 1; /* Behind the spinner but above the wheel */
+    display: none; /* Initially hidden */
+}
+
+.error-message {
+    color: red;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* Confetti styles (from external library - see script tag below) */
+.confetti {
+    position: fixed;
+    pointer-events: none; /* Make confetti non-interactive */
+}
+
+#confetti-winner-name{
+        position: fixed; /* Stay in a fixed position */
+        top: 50%; /* Center vertically */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -50%); /* Center precisely */
+        font-size: 2rem; /* Large font size */
+        font-weight: bold; /* Make it bold */
+        color: #333; /* Dark grey color (adjust as needed) */
+        z-index: 1000; /* Ensure it's above other elements */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a shadow */
+        display: none; /* Initially hide it */
+}
+
+</style>
 </head>
-
 <body>
 
-    <div class="container">
-        <h1>Random Name Picker</h1>
+<div class="container">
+  <h1>Spinning Wheel Name Picker</h1>
 
-        <label for="names">Enter names (one per line):</label>
-        <textarea id="names" placeholder="e.g., Alice&#10;Bob&#10;Charlie"></textarea>
-        <div id="error-container" class="error-message"></div>
+  <label for="names">Enter names (one per line):</label>
+  <textarea id="names" placeholder="e.g., Alice&#10;Bob&#10;Charlie"></textarea>
+  <div id="error-container" class="error-message"></div>
+  <button onclick="spinWheel()">Spin the Wheel</button>
+</div>
 
-        <button onclick="pickName()">Pick a Name</button>
+<div id="wheel-container">
+  <div id="pointer"></div>
+  <div id="spinner"></div>
+  <div id="wheel"></div>
+    <div id="result"></div>
+</div>
+<div id="confetti-winner-name"></div>
 
-        <div id="result"></div>
-    </div>
 
-    <script>
-        function pickName() {
-            const namesText = document.getElementById("names").value;
-            const errorContainer = document.getElementById("error-container");
-            errorContainer.textContent = ""; // Clear previous error
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+<script>
+let isSpinning = false; // Flag to prevent multiple spins
 
-            const names = namesText.split('\n').map(name => name.trim()).filter(name => name !== "");
+function spinWheel() {
+    if (isSpinning) return; // Do nothing if already spinning
+    isSpinning = true;
 
-            if (names.length === 0) {
-                errorContainer.textContent = "Please enter at least one name.";
-                document.getElementById("result").textContent = ""; // Clear previous result
-                return;  // Stop execution if there are no names
-            }
+    const namesText = document.getElementById("names").value;
+    const errorContainer = document.getElementById("error-container");
+    errorContainer.textContent = ""; // Clear previous errors
+    const wheel = document.getElementById("wheel");
+    const resultDisplay = document.getElementById("result");
 
-            const randomIndex = Math.floor(Math.random() * names.length);
-            const selectedName = names[randomIndex];
+    const names = namesText.split('\n').map(name => name.trim()).filter(name => name !== "");
 
-            document.getElementById("result").textContent = "The winner is: " + selectedName;
+    if (names.length < 2) { // Require at least 2 names
+        errorContainer.textContent = "Please enter at least two names.";
+        isSpinning = false; // Reset spin flag
+        return;
+    }
+
+  resultDisplay.style.display = 'none'; // Hide previous result
+  // Create the color wheel background
+  createWheelSegments(names);
+    const spinDuration = 3000; // 3 seconds
+    const randomRotation = 360 * (5 + Math.floor(Math.random() * 5)) ; // Spin at least 5 full rotations + random part
+
+
+    wheel.style.transition = `transform ${spinDuration / 1000}s ease-out`;
+    wheel.style.transform = `rotate(${randomRotation}deg)`;
+
+    setTimeout(() => {
+        // Calculate Winner after rotation stops
+        const degreesPerSegment = 360 / names.length;
+        let normalizedRotation = randomRotation % 360; // Normalize to 0-360 range
+        if(normalizedRotation < 0) {   //handle edge case of negative degrees
+           normalizedRotation += 360;
         }
-    </script>
+        const winningSegmentIndex = Math.floor((360-normalizedRotation) / degreesPerSegment); //calculate winniner.
+        const winner = names[winningSegmentIndex];
+
+         resultDisplay.textContent = winner;
+         resultDisplay.style.display = 'block';
+        showConfetti(winner);
+        wheel.style.transition = 'none'; // Disable transition for resetting.
+        wheel.style.transform = `rotate(${(winningSegmentIndex * -degreesPerSegment)}deg)`;  //Correct for pointer
+        isSpinning = false; // Reset spin flag
+
+    }, spinDuration);
+
+}
+
+function createWheelSegments(names) {
+    const wheel = document.getElementById('wheel');
+    const numSegments = names.length;
+    const segmentAngle = 360 / numSegments;
+    let colors = generateColors(numSegments); // Generate colors
+    let backgroundImage = '';
+
+    for (let i = 0; i < numSegments; i++) {
+        const startAngle = i * segmentAngle;
+        const endAngle = (i + 1) * segmentAngle;
+        // Use conic-gradient for each segment.  This is much better than creating individual DOM elements.
+        backgroundImage += `conic-gradient(from ${startAngle}deg at 50% 50%, ${colors[i]} ${startAngle}deg, ${colors[i]} ${endAngle}deg),`;
+    }
+
+    wheel.style.backgroundImage = backgroundImage.slice(0, -1); // Remove the trailing comma.
+
+}
+
+function generateColors(numColors) {
+    const colors = [];
+    for (let i = 0; i < numColors; i++) {
+        // Generate vibrant, distinct colors
+        const hue = (i * (360 / numColors)) % 360;
+        colors.push(`hsl(${hue}, 100%, 50%)`); // Use HSL for better color control
+    }
+    return colors;
+}
+
+function showConfetti(winnerName) {
+        const confettiWinnerName = document.getElementById("confetti-winner-name");
+        confettiWinnerName.textContent = winnerName;
+        confettiWinnerName.style.display = "block";
+    confetti({
+    particleCount: 100,
+    spread: 70,
+    origin: { y: 0.6 }
+    });
+
+    // Hide the name after 3 seconds (adjust as needed)
+    setTimeout(() => {
+       confettiWinnerName.style.display = "none";
+    }, 3000);
+
+}
+
+
+</script>
 
 </body>
-
 </html>
