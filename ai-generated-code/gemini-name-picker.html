@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Random Name Picker</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 100px;
+            padding: 8px;
+            box-sizing: border-box;
+            /* Include padding in width */
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+            /* Allow vertical resizing */
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #result {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .error-message {
+            color: red;
+            margin-top: 5px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Random Name Picker</h1>
+
+        <label for="names">Enter names (one per line):</label>
+        <textarea id="names" placeholder="e.g., Alice&#10;Bob&#10;Charlie"></textarea>
+        <div id="error-container" class="error-message"></div>
+
+        <button onclick="pickName()">Pick a Name</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script>
+        function pickName() {
+            const namesText = document.getElementById("names").value;
+            const errorContainer = document.getElementById("error-container");
+            errorContainer.textContent = ""; // Clear previous error
+
+            const names = namesText.split('\n').map(name => name.trim()).filter(name => name !== "");
+
+            if (names.length === 0) {
+                errorContainer.textContent = "Please enter at least one name.";
+                document.getElementById("result").textContent = ""; // Clear previous result
+                return;  // Stop execution if there are no names
+            }
+
+            const randomIndex = Math.floor(Math.random() * names.length);
+            const selectedName = names[randomIndex];
+
+            document.getElementById("result").textContent = "The winner is: " + selectedName;
+        }
+    </script>
+
+</body>
+
+</html>
